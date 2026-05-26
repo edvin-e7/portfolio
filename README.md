@@ -22,19 +22,20 @@ potential, qualify them, score them, and hand a sales team a ranked lead list.
   explicit env flags so a run can never silently bill
 - **Stack:** Python · FastAPI · React/Electron · Gemini · ONNX · SQLite
 
-### 📄 CV-Tailor — job-ad ranker + tailored application generator
-Ranks live job ads against a candidate profile and generates a tailored CV + cover letter
-per role, for the Swedish job market.
+### 🛍️ e7-stylez — fashion aggregator (Next.js 16)
+A shopping aggregator that pulls real product feeds from 60+ stores into one searchable
+catalogue, with brand pages and cross-store price comparison.
 
-- **Multi-tier scoring** — keyword overlap + semantic embeddings (EmbeddingGemma, 768-dim)
-  against the candidate profile, with geo bonus and hard exclusion rules
-- **Multi-LLM backend** — Anthropic / Ollama / Gemini, each opt-in, local-first by default
-- **Outcome tracking** — every application's result feeds back as empirical data for future
-  ranking weights (no fine-tuning required)
-- **Stack:** TypeScript · Express · React/Vite · Anthropic SDK · Ollama
+- **Live feed ingestion** — 60+ sources, real Shopify product feeds (live prices, images,
+  stock), validated + cached so a drifted feed degrades gracefully instead of crashing
+- **Brand aggregation** — one brand across every store, cheapest first; canonicalises messy
+  feed data (Nike/NIKE/"NIKE Retail B.V." → one brand) with ground-truth tests
+- **Product-grade UX** — ⌘K command palette, personalised "For You" rerank, cross-store
+  price compare, mobile-first, SSG + JSON-LD for SEO
+- **Stack:** Next.js 16 · TypeScript · React · Vercel (serverless) · Vitest
 
-> Both codebases are private (they contain client/personal data), but I'm happy to walk
-> through either live on a call and show how the architecture actually works.
+> Codebases are private, but I'm happy to walk through either live on a call and show how
+> the architecture actually works.
 
 ---
 
