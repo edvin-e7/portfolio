@@ -65,7 +65,5 @@ I quote within 2 hours of getting the problem, and I refund if you're not satisf
 
 - **GitHub:** [github.com/edvin-e7](https://github.com/edvin-e7)
 - **Email:** edvin.pierre03@gmail.com
-- **Reddit:** _<!-- fyll i ditt handle, t.ex. /u/vibecoder_se -->_
-- **Discord:** _<!-- fyll i ditt handle -->_
 
 DM with the problem and I'll get back to you fast.
